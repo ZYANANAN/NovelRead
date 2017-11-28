@@ -1,0 +1,27 @@
+{
+  "name": "COTools",
+  "version": "0.1",
+  "license": "MIT",
+  "summary": "iOS 常用类库",
+  "homepage": "https://github.com/azaxas128/COTools",
+  "social_media_url": "https://github.com/azaxas128/COTools",
+  "authors": {
+    "azaxas128": "328768132@qq.com"
+  },
+  "source": {
+    "git": "https://git.oschina.net/kingreader/COTools",
+    "tag": "0.1"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "public_header_files": [
+    "COTools/*.h",
+    "COTools/**/*.h"
+  ],
+  "source_files": [
+    "COTools/**/*.{h,m,mm}",
+    "COTools/*.{h,m}"
+  ]
+}

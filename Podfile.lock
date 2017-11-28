@@ -1,0 +1,142 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AlicloudHTTPDNS (1.5.5):
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.1):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.1.0.16)
+  - AlicloudUtils (1.2.2):
+    - AlicloudUT
+    - AlicloudUTDID
+  - COTools (0.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GCDWebServer (0.0.1)
+  - KingReaderSDK (2.7.1)
+  - LZMASDK (0.1)
+  - pop (1.0.10)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - SSZipArchive (2.0.3)
+  - SVProgressForKR (0.1)
+  - TalkingDataSDK (0.1)
+  - ThirdLoginSDK (0.0.1):
+    - ThirdLoginSDK/Base (= 0.0.1)
+    - ThirdLoginSDK/QQConnect (= 0.0.1)
+    - ThirdLoginSDK/WeChat (= 0.0.1)
+    - ThirdLoginSDK/Weibo (= 0.0.1)
+  - ThirdLoginSDK/Base (0.0.1)
+  - ThirdLoginSDK/QQConnect (0.0.1):
+    - ThirdLoginSDK/Base
+  - ThirdLoginSDK/WeChat (0.0.1):
+    - ThirdLoginSDK/Base
+  - ThirdLoginSDK/Weibo (0.0.1):
+    - ThirdLoginSDK/Base
+  - TJJRefresh (2.5.0)
+  - UnrarKit (2.8.1):
+    - UnrarKit/unrar-lib (= 2.8.1)
+  - UnrarKit/unrar-lib (2.8.1)
+  - VBFPopFlatButton (0.0.7):
+    - pop
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AlicloudHTTPDNS (~> 1.5.0)
+  - COTools (from `https://git.oschina.net/kingreader/COTools.git`)
+  - FMDB
+  - GCDWebServer (from `https://git.oschina.net/kingreader/GCDWebServer.git`)
+  - KingReaderSDK (from `https://git.zhuishushenqi.com/zhuge/KingReaderSDK.git`)
+  - LZMASDK (from `https://git.oschina.net/kingreader/LZMASDK.git`)
+  - SDWebImage
+  - SSZipArchive
+  - SVProgressForKR (from `https://git.oschina.net/kingreader/SVProgressForKR.git`)
+  - TalkingDataSDK (from `https://git.oschina.net/kingreader/TalkingDataSDK.git`)
+  - ThirdLoginSDK (from `https://git.oschina.net/comicisland/ThirdLoginSDK.git`)
+  - TJJRefresh (from `https://git.oschina.net/kingreader/TJJRefresh.git`)
+  - UnrarKit
+  - VBFPopFlatButton
+
+EXTERNAL SOURCES:
+  COTools:
+    :git: https://git.oschina.net/kingreader/COTools.git
+  GCDWebServer:
+    :git: https://git.oschina.net/kingreader/GCDWebServer.git
+  KingReaderSDK:
+    :git: https://git.zhuishushenqi.com/zhuge/KingReaderSDK.git
+  LZMASDK:
+    :git: https://git.oschina.net/kingreader/LZMASDK.git
+  SVProgressForKR:
+    :git: https://git.oschina.net/kingreader/SVProgressForKR.git
+  TalkingDataSDK:
+    :git: https://git.oschina.net/kingreader/TalkingDataSDK.git
+  ThirdLoginSDK:
+    :git: https://git.oschina.net/comicisland/ThirdLoginSDK.git
+  TJJRefresh:
+    :git: https://git.oschina.net/kingreader/TJJRefresh.git
+
+CHECKOUT OPTIONS:
+  COTools:
+    :commit: b700de49215217ee3a1c4957cc6cb4420e28e4f8
+    :git: https://git.oschina.net/kingreader/COTools.git
+  GCDWebServer:
+    :commit: 5880e5693387c88e40999f3a2d066596202cda67
+    :git: https://git.oschina.net/kingreader/GCDWebServer.git
+  KingReaderSDK:
+    :commit: 63314720fd10841709cd36900066bc3d2ba29e4f
+    :git: https://git.zhuishushenqi.com/zhuge/KingReaderSDK.git
+  LZMASDK:
+    :commit: ed9854ffb2a732ac4e936aa61403a886456c39fb
+    :git: https://git.oschina.net/kingreader/LZMASDK.git
+  SVProgressForKR:
+    :commit: f0c161311e0bb18b5c8ffa888792971305c567a1
+    :git: https://git.oschina.net/kingreader/SVProgressForKR.git
+  TalkingDataSDK:
+    :commit: 56c410b7f24e8edfb1d54fb44ad4075560b9c363
+    :git: https://git.oschina.net/kingreader/TalkingDataSDK.git
+  ThirdLoginSDK:
+    :commit: f10b23c36c692ce26783d7ec20ebb680085ac189
+    :git: https://git.oschina.net/comicisland/ThirdLoginSDK.git
+  TJJRefresh:
+    :commit: b1e9f3ed5a50573be5c5163d755afd432c2e49e2
+    :git: https://git.oschina.net/kingreader/TJJRefresh.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AlicloudHTTPDNS: 843e0b6992be0cd5b6806d008ceef19839ae8149
+  AlicloudUT: 9f20dcfd2753de09261b6c279245da1650a34932
+  AlicloudUTDID: f5a7bc1420c5f83e3bd40296e5ab2e5a804a12f8
+  AlicloudUtils: 2437ae7fd2b39343539e8f48aa1f7bf6f5a6cff1
+  COTools: 7fa7fae5a38b78ec15928caf35aabaa0a3d74fca
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GCDWebServer: b3cd962594bda81bb216b9e110eb068b41db296b
+  KingReaderSDK: 668521a8d34d6423ea060f434954c5a09187f20d
+  LZMASDK: d689db0fc8e9452748c66ab183173c59938b5d76
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  SSZipArchive: b6648b70a36303ca5be9f0351174b347e1886236
+  SVProgressForKR: 25859594a84373577cc7f1753700be013565f743
+  TalkingDataSDK: e3a7e155613e9dd00249502ce9c366059ba6ca04
+  ThirdLoginSDK: d9250b83a3034cccd47e8071acff02ebb8c28512
+  TJJRefresh: 7b83ea207c0040ce4e3845fd33b8a17e3bd8049d
+  UnrarKit: 167602bda6542e575c4cdc068509d6b787f84468
+  VBFPopFlatButton: 39e48ab56277f3d056734a9b5ec5d0cc60d69778
+
+PODFILE CHECKSUM: 9bf4770445e94a0b575d80ef7323028e9bb62e84
+
+COCOAPODS: 1.2.1

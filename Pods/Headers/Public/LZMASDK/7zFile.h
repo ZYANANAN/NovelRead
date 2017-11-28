@@ -1,0 +1,1 @@
+../../../LZMASDK/LZMASDK/7zFile.h

@@ -1,0 +1,1 @@
+../../../../ThirdLoginSDK/ThirdLibFramework/QQSDK/TencentOpenAPI.framework/Headers/TencentApiInterface.h

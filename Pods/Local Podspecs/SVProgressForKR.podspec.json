@@ -1,0 +1,23 @@
+{
+  "name": "SVProgressForKR",
+  "version": "0.1",
+  "license": "MIT",
+  "summary": "SVProgressHUD修改UI适配开卷有益",
+  "homepage": "https://github.com/azaxas128/SVProgressForKR",
+  "social_media_url": "https://github.com/azaxas128/SVProgressForKR",
+  "authors": {
+    "azaxas128": "328768132@qq.com"
+  },
+  "source": {
+    "git": "https://git.oschina.net/kingreader/SVProgressForKR",
+    "tag": "0.1",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "SVProgressHUD/*.{h,m}",
+  "frameworks": "QuartzCore",
+  "resources": "SVProgressHUD/SVProgressHUD.bundle"
+}

@@ -1,0 +1,1 @@
+../../../COTools/COTools/COView/COBaseVC.h

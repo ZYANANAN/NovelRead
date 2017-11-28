@@ -1,0 +1,27 @@
+{
+  "name": "GCDWebServer",
+  "version": "0.0.1",
+  "summary": "Server SDK",
+  "description": "GCDWebServer can build as a server on phone",
+  "homepage": "https://www.vvusu.com/author/tjj/",
+  "license": "MIT",
+  "authors": {
+    "tangjj": ""
+  },
+  "source": {
+    "git": "https://git.oschina.net/kingreader/GCDWebServer.git"
+  },
+  "source_files": [
+    "GCDWebServer/GCDWebDAVServer/*.{h,m}",
+    "GCDWebServer/GCDWebServer/**/*.{h,m}",
+    "GCDWebServer/GCDWebUploader/*.{h,m}"
+  ],
+  "resources": "GCDWebServer/GCDWebUploader/GCDWebUploader.bundle",
+  "compiler_flags": "-I$(SDKROOT)/usr/include/libxml2",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

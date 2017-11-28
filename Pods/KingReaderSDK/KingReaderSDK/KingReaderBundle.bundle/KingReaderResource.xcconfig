@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ShareSDK" "${PODS_ROOT}/ShareSDK" "${PODS_ROOT}/ShareSDK" "${PODS_ROOT}/ShareSDK" "${PODS_ROOT}/ShareSDK" "${PODS_ROOT}/ShareSDK/extends/QQSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ShareSDK" "${PODS_ROOT}/Headers/Public/UnrarKit"
+//LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ShareSDK/extends/WeChatSDK"
+//OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ShareSDK" -isystem "${PODS_ROOT}/Headers/Public/UnrarKit"
+//OTHER_LDFLAGS = $(inherited) -ObjC -l"UnrarKit" -l"WeChatSDK" -l"icucore" -l"sqlite3" -l"stdc++" -l"z" -framework "JavaScriptCore" -framework "MOBFoundation" -framework "ShareSDK" -framework "ShareSDKConnector" -framework "ShareSDKExtension" -framework "ShareSDKUI" -framework "TencentOpenAPI"
+PODS_ROOT = ${SRCROOT}/Pods

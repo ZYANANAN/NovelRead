@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EFD5889CB561DC8CD9450C0 /* libPods-NovelRead.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9642D3A534F35174D873FA0F /* libPods-NovelRead.a */; };
+		FC3691C01FC6A35700454132 /* recommend.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC3691BF1FC6A35700454132 /* recommend.txt */; };
+		FC3691C11FC6A35700454132 /* recommend.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC3691BF1FC6A35700454132 /* recommend.txt */; };
+		FC3691C41FC6C40D00454132 /* 750@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3691C31FC6C40D00454132 /* 750@3x.png */; };
+		FC3691C51FC6C40D00454132 /* 750@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3691C31FC6C40D00454132 /* 750@3x.png */; };
+		FC3691C71FC6C41600454132 /* 750@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3691C61FC6C41600454132 /* 750@2x.png */; };
+		FC3691C81FC6C41600454132 /* 750@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3691C61FC6C41600454132 /* 750@2x.png */; };
+		FC3BBCB01FBD6EFE00F537CD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3BBCAF1FBD6EF700F537CD /* AddressBook.framework */; };
+		FC5A69621FBAECF8000898ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A69611FBAECF8000898ED /* AppDelegate.m */; };
+		FC5A69651FBAECF8000898ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A69641FBAECF8000898ED /* ViewController.m */; };
+		FC5A696A1FBAECF8000898ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5A69691FBAECF8000898ED /* Assets.xcassets */; };
+		FC5A696D1FBAECF8000898ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5A696B1FBAECF8000898ED /* LaunchScreen.storyboard */; };
+		FC5A69701FBAECF8000898ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A696F1FBAECF8000898ED /* main.m */; };
+		FC5A697A1FBAECF8000898ED /* NovelReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A69791FBAECF8000898ED /* NovelReadTests.m */; };
+		FC5A69851FBAECF8000898ED /* NovelReadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A69841FBAECF8000898ED /* NovelReadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC5A69761FBAECF8000898ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5A69551FBAECF8000898ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5A695C1FBAECF8000898ED;
+			remoteInfo = NovelRead;
+		};
+		FC5A69811FBAECF8000898ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5A69551FBAECF8000898ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5A695C1FBAECF8000898ED;
+			remoteInfo = NovelRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EF17E6E2EB35A5C9387758E /* Pods-NovelRead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovelRead.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NovelRead/Pods-NovelRead.debug.xcconfig"; sourceTree = "<group>"; };
+		6EBDE1EBB22D0A73C186C15E /* Pods-NovelRead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovelRead.release.xcconfig"; path = "Pods/Target Support Files/Pods-NovelRead/Pods-NovelRead.release.xcconfig"; sourceTree = "<group>"; };
+		9642D3A534F35174D873FA0F /* libPods-NovelRead.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NovelRead.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3691BF1FC6A35700454132 /* recommend.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recommend.txt; sourceTree = "<group>"; };
+		FC3691C21FC6AE1300454132 /* NovelRead.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NovelRead.entitlements; sourceTree = "<group>"; };
+		FC3691C31FC6C40D00454132 /* 750@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "750@3x.png"; sourceTree = "<group>"; };
+		FC3691C61FC6C41600454132 /* 750@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "750@2x.png"; sourceTree = "<group>"; };
+		FC3BBCAF1FBD6EF700F537CD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FC5A695D1FBAECF8000898ED /* NovelRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovelRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5A69601FBAECF8000898ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC5A69611FBAECF8000898ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC5A69631FBAECF8000898ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC5A69641FBAECF8000898ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC5A69691FBAECF8000898ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC5A696C1FBAECF8000898ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC5A696E1FBAECF8000898ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5A696F1FBAECF8000898ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC5A69751FBAECF8000898ED /* NovelReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovelReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5A69791FBAECF8000898ED /* NovelReadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovelReadTests.m; sourceTree = "<group>"; };
+		FC5A697B1FBAECF8000898ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5A69801FBAECF8000898ED /* NovelReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovelReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5A69841FBAECF8000898ED /* NovelReadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovelReadUITests.m; sourceTree = "<group>"; };
+		FC5A69861FBAECF8000898ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6CDED21FBC1620005F10D3 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FC6CDED31FBC163E005F10D3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5A695A1FBAECF8000898ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3BBCB01FBD6EFE00F537CD /* AddressBook.framework in Frameworks */,
+				3EFD5889CB561DC8CD9450C0 /* libPods-NovelRead.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5A69721FBAECF8000898ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5A697D1FBAECF8000898ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5786268C467254CC0F1A9104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC3BBCAF1FBD6EF700F537CD /* AddressBook.framework */,
+				9642D3A534F35174D873FA0F /* libPods-NovelRead.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82161179004B1799DF49307C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EF17E6E2EB35A5C9387758E /* Pods-NovelRead.debug.xcconfig */,
+				6EBDE1EBB22D0A73C186C15E /* Pods-NovelRead.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC5A69541FBAECF8000898ED = {
+			isa = PBXGroup;
+			children = (
+				FC5A695F1FBAECF8000898ED /* NovelRead */,
+				FC5A69781FBAECF8000898ED /* NovelReadTests */,
+				FC5A69831FBAECF8000898ED /* NovelReadUITests */,
+				FC5A695E1FBAECF8000898ED /* Products */,
+				82161179004B1799DF49307C /* Pods */,
+				5786268C467254CC0F1A9104 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5A695E1FBAECF8000898ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A695D1FBAECF8000898ED /* NovelRead.app */,
+				FC5A69751FBAECF8000898ED /* NovelReadTests.xctest */,
+				FC5A69801FBAECF8000898ED /* NovelReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC5A695F1FBAECF8000898ED /* NovelRead */ = {
+			isa = PBXGroup;
+			children = (
+				FC3691C21FC6AE1300454132 /* NovelRead.entitlements */,
+				FC5A69601FBAECF8000898ED /* AppDelegate.h */,
+				FC5A69611FBAECF8000898ED /* AppDelegate.m */,
+				FC6CDED31FBC163E005F10D3 /* PrefixHeader.pch */,
+				FC6CDED21FBC1620005F10D3 /* Header.h */,
+				FC5A69631FBAECF8000898ED /* ViewController.h */,
+				FC5A69641FBAECF8000898ED /* ViewController.m */,
+				FC3691BF1FC6A35700454132 /* recommend.txt */,
+				FC3691C61FC6C41600454132 /* 750@2x.png */,
+				FC3691C31FC6C40D00454132 /* 750@3x.png */,
+				FC5A69691FBAECF8000898ED /* Assets.xcassets */,
+				FC5A696B1FBAECF8000898ED /* LaunchScreen.storyboard */,
+				FC5A696E1FBAECF8000898ED /* Info.plist */,
+				FC5A696F1FBAECF8000898ED /* main.m */,
+			);
+			path = NovelRead;
+			sourceTree = "<group>";
+		};
+		FC5A69781FBAECF8000898ED /* NovelReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A69791FBAECF8000898ED /* NovelReadTests.m */,
+				FC5A697B1FBAECF8000898ED /* Info.plist */,
+			);
+			path = NovelReadTests;
+			sourceTree = "<group>";
+		};
+		FC5A69831FBAECF8000898ED /* NovelReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A69841FBAECF8000898ED /* NovelReadUITests.m */,
+				FC5A69861FBAECF8000898ED /* Info.plist */,
+			);
+			path = NovelReadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5A695C1FBAECF8000898ED /* NovelRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5A69891FBAECF8000898ED /* Build configuration list for PBXNativeTarget "NovelRead" */;
+			buildPhases = (
+				B30FC62D9C827D0702710DE0 /* [CP] Check Pods Manifest.lock */,
+				FC5A69591FBAECF8000898ED /* Sources */,
+				FC5A695A1FBAECF8000898ED /* Frameworks */,
+				FC5A695B1FBAECF8000898ED /* Resources */,
+				87F581EFC5C262E8F251525C /* [CP] Embed Pods Frameworks */,
+				1A6648D257FB82315A4A2A4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovelRead;
+			productName = NovelRead;
+			productReference = FC5A695D1FBAECF8000898ED /* NovelRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC5A69741FBAECF8000898ED /* NovelReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5A698C1FBAECF8000898ED /* Build configuration list for PBXNativeTarget "NovelReadTests" */;
+			buildPhases = (
+				FC5A69711FBAECF8000898ED /* Sources */,
+				FC5A69721FBAECF8000898ED /* Frameworks */,
+				FC5A69731FBAECF8000898ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5A69771FBAECF8000898ED /* PBXTargetDependency */,
+			);
+			name = NovelReadTests;
+			productName = NovelReadTests;
+			productReference = FC5A69751FBAECF8000898ED /* NovelReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC5A697F1FBAECF8000898ED /* NovelReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5A698F1FBAECF8000898ED /* Build configuration list for PBXNativeTarget "NovelReadUITests" */;
+			buildPhases = (
+				FC5A697C1FBAECF8000898ED /* Sources */,
+				FC5A697D1FBAECF8000898ED /* Frameworks */,
+				FC5A697E1FBAECF8000898ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5A69821FBAECF8000898ED /* PBXTargetDependency */,
+			);
+			name = NovelReadUITests;
+			productName = NovelReadUITests;
+			productReference = FC5A69801FBAECF8000898ED /* NovelReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5A69551FBAECF8000898ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Yanan;
+				TargetAttributes = {
+					FC5A695C1FBAECF8000898ED = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					FC5A69741FBAECF8000898ED = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC5A695C1FBAECF8000898ED;
+					};
+					FC5A697F1FBAECF8000898ED = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC5A695C1FBAECF8000898ED;
+					};
+				};
+			};
+			buildConfigurationList = FC5A69581FBAECF8000898ED /* Build configuration list for PBXProject "NovelRead" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC5A69541FBAECF8000898ED;
+			productRefGroup = FC5A695E1FBAECF8000898ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5A695C1FBAECF8000898ED /* NovelRead */,
+				FC5A69741FBAECF8000898ED /* NovelReadTests */,
+				FC5A697F1FBAECF8000898ED /* NovelReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5A695B1FBAECF8000898ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3691C41FC6C40D00454132 /* 750@3x.png in Resources */,
+				FC5A696D1FBAECF8000898ED /* LaunchScreen.storyboard in Resources */,
+				FC5A696A1FBAECF8000898ED /* Assets.xcassets in Resources */,
+				FC3691C01FC6A35700454132 /* recommend.txt in Resources */,
+				FC3691C71FC6C41600454132 /* 750@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5A69731FBAECF8000898ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3691C51FC6C40D00454132 /* 750@3x.png in Resources */,
+				FC3691C11FC6A35700454132 /* recommend.txt in Resources */,
+				FC3691C81FC6C41600454132 /* 750@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5A697E1FBAECF8000898ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6648D257FB82315A4A2A4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NovelRead/Pods-NovelRead-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F581EFC5C262E8F251525C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NovelRead/Pods-NovelRead-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B30FC62D9C827D0702710DE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5A69591FBAECF8000898ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5A69651FBAECF8000898ED /* ViewController.m in Sources */,
+				FC5A69701FBAECF8000898ED /* main.m in Sources */,
+				FC5A69621FBAECF8000898ED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5A69711FBAECF8000898ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5A697A1FBAECF8000898ED /* NovelReadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5A697C1FBAECF8000898ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5A69851FBAECF8000898ED /* NovelReadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC5A69771FBAECF8000898ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5A695C1FBAECF8000898ED /* NovelRead */;
+			targetProxy = FC5A69761FBAECF8000898ED /* PBXContainerItemProxy */;
+		};
+		FC5A69821FBAECF8000898ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5A695C1FBAECF8000898ED /* NovelRead */;
+			targetProxy = FC5A69811FBAECF8000898ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC5A696B1FBAECF8000898ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5A696C1FBAECF8000898ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5A69871FBAECF8000898ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC5A69881FBAECF8000898ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5A698A1FBAECF8000898ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF17E6E2EB35A5C9387758E /* Pods-NovelRead.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hao Xu (555N3J7WWE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hao Xu (555N3J7WWE)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 555N3J7WWE;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NovelRead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haoxu.NovelRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NoverReadXS;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC5A698B1FBAECF8000898ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBDE1EBB22D0A73C186C15E /* Pods-NovelRead.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hao Xu (555N3J7WWE)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 555N3J7WWE;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NovelRead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haoxu.NovelRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NoverReadXS;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FC5A698D1FBAECF8000898ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 555N3J7WWE;
+				INFOPLIST_FILE = NovelReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haoxu.NovelReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovelRead.app/NovelRead";
+			};
+			name = Debug;
+		};
+		FC5A698E1FBAECF8000898ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 555N3J7WWE;
+				INFOPLIST_FILE = NovelReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haoxu.NovelReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovelRead.app/NovelRead";
+			};
+			name = Release;
+		};
+		FC5A69901FBAECF8000898ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 555N3J7WWE;
+				INFOPLIST_FILE = NovelReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haoxu.NovelReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovelRead;
+			};
+			name = Debug;
+		};
+		FC5A69911FBAECF8000898ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 555N3J7WWE;
+				INFOPLIST_FILE = NovelReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haoxu.NovelReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovelRead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5A69581FBAECF8000898ED /* Build configuration list for PBXProject "NovelRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5A69871FBAECF8000898ED /* Debug */,
+				FC5A69881FBAECF8000898ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5A69891FBAECF8000898ED /* Build configuration list for PBXNativeTarget "NovelRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5A698A1FBAECF8000898ED /* Debug */,
+				FC5A698B1FBAECF8000898ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5A698C1FBAECF8000898ED /* Build configuration list for PBXNativeTarget "NovelReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5A698D1FBAECF8000898ED /* Debug */,
+				FC5A698E1FBAECF8000898ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5A698F1FBAECF8000898ED /* Build configuration list for PBXNativeTarget "NovelReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5A69901FBAECF8000898ED /* Debug */,
+				FC5A69911FBAECF8000898ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5A69551FBAECF8000898ED /* Project object */;
+}

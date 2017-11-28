@@ -1,0 +1,24 @@
+{
+  "name": "TJJRefresh",
+  "version": "2.5.0",
+  "summary": "对MJRefresh自定义",
+  "description": "对MJRefresh自定义",
+  "homepage": "https://github.com/azaxas128/TalkingDataSDK",
+  "license": "MIT",
+  "authors": {
+    "tangjj": ""
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://git.oschina.net/kingreader/TJJRefresh.git"
+  },
+  "source_files": [
+    "Base/*.{h,m}",
+    "Custom/**/*.{h,m}",
+    "*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resources": "*.bundle"
+}

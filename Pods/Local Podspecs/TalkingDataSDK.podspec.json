@@ -1,0 +1,30 @@
+{
+  "name": "TalkingDataSDK",
+  "version": "0.1",
+  "license": "MIT",
+  "summary": "talkdata 统计 SDK",
+  "homepage": "https://github.com/azaxas128/TalkingDataSDK",
+  "social_media_url": "https://github.com/azaxas128/TalkingDataSDK",
+  "authors": {
+    "azaxas128": "328768132@qq.com"
+  },
+  "source": {
+    "git": "https://git.oschina.net/kingreader/TalkingDataSDK.git",
+    "tag": "0.1",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "*.{h,m}",
+  "vendored_libraries": "libTalkingData.a",
+  "frameworks": [
+    "SystemConfiguration",
+    "AdSupport",
+    "CoreMotion",
+    "CoreTelephony",
+    "Security"
+  ],
+  "libraries": "z"
+}

@@ -1,0 +1,1 @@
+../../../KingReaderSDK/KingReaderSDK/KingReaderSDK.h

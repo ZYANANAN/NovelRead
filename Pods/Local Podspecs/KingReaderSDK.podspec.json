@@ -1,0 +1,31 @@
+{
+  "name": "KingReaderSDK",
+  "version": "2.7.1",
+  "license": "MIT",
+  "summary": "KingReaderSDK for iOS7+",
+  "homepage": "https://git.zhuishushenqi.com/zhuge/KingReaderSDK",
+  "social_media_url": "https://github.com/azaxas128/MiPushSDK",
+  "authors": {
+    "zhuge": "2271637488@qq.com"
+  },
+  "source": {
+    "git": "https://git.zhuishushenqi.com/zhuge/KingReaderSDK.git",
+    "tag": "2.7.1",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "KingReaderSDK/*.{h,m}",
+  "vendored_libraries": "KingReaderSDK/libKingReaderSDK.a",
+  "resources": [
+    "KingReaderSDK/*.bundle"
+  ],
+  "libraries": [
+    "xml2",
+    "z",
+    "resolv",
+    "sqlite3"
+  ]
+}

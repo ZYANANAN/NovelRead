@@ -1,0 +1,91 @@
+{
+  "name": "ThirdLoginSDK",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "version": "0.0.1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "homepage": "https://git.oschina.net/comicisland/ThirdLoginSDK.git",
+  "authors": {
+    "Abraham Wang": "328768132@qq.com"
+  },
+  "summary": "ThirdLoginSDK",
+  "source": {
+    "git": "https://git.oschina.net/comicisland/ThirdLoginSDK.git"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": [
+        "ThirdLibFramework/ThirdLoginSDK/*.{h,m}",
+        "ThirdLibFramework/ThirdLoginSDK/**/*.{h,m}"
+      ]
+    },
+    {
+      "name": "QQConnect",
+      "vendored_frameworks": "ThirdLibFramework/QQSDK/*.framework",
+      "resources": [
+        "ThirdLibFramework/QQSDK/*.bundle"
+      ],
+      "libraries": "sqlite3",
+      "frameworks": [
+        "QuartzCore",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "CoreText",
+        "CoreGraphics"
+      ],
+      "dependencies": {
+        "ThirdLoginSDK/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "WeChat",
+      "vendored_libraries": "ThirdLibFramework/WeChatSDK/*.a",
+      "source_files": "ThirdLibFramework/WeChatSDK/*.{h,m}",
+      "libraries": [
+        "sqlite3.0",
+        "z",
+        "c++"
+      ],
+      "frameworks": "SystemConfiguration",
+      "dependencies": {
+        "ThirdLoginSDK/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "Weibo",
+      "vendored_libraries": "ThirdLibFramework/libWeiboSDK/*.a",
+      "source_files": "ThirdLibFramework/libWeiboSDK/*.{h,m}",
+      "resources": [
+        "ThirdLibFramework/libWeiboSDK/*.bundle"
+      ],
+      "libraries": [
+        "sqlite3",
+        "z"
+      ],
+      "frameworks": [
+        "QuartzCore",
+        "ImageIO",
+        "SystemConfiguration",
+        "Security",
+        "CoreTelephony",
+        "CoreText",
+        "CoreGraphics"
+      ],
+      "dependencies": {
+        "ThirdLoginSDK/Base": [
+
+        ]
+      }
+    }
+  ]
+}

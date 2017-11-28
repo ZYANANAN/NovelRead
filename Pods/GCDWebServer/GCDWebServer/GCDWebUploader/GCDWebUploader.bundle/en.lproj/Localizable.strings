@@ -1,0 +1,3 @@
+"PROLOGUE" = "<p>手机与电脑务必在同一WiFi内，目前只支持TXT、EPUP、PDF、UMD、CHM、CBZ、RAR、ZIP、7z、HTM、HTML、XHTML、DOC、DOCX、PPT、PPTX、XLS、XLSX格式</p>";
+"EPILOGUE" = "";
+"FOOTER_FORMAT" = "%@ %@";

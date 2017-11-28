@@ -1,0 +1,1 @@
+../../../COTools/COTools/COTools/COCommTool.h

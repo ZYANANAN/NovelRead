@@ -1,0 +1,1 @@
+../../../../AlicloudHTTPDNS/httpdns/AlicloudHttpDNS.framework/Headers/HttpdnsDegradationDelegate.h
